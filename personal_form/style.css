@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(237, 214, 214);
+}
+form{
+    color: blue;
+}
+::placeholder{
+    color: red;
+}
+h1{
+    color: orangered;
+}

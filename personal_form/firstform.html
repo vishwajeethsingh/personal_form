@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal forms</title>
+</head>
+<body>
+    <h1>Personal Details</Details></h1>
+    <form action="backend.js">
+    <label for="name"> Name </label> 
+    <div>
+    <input type="text" placeholder="Enter your first name" name="MyName" id="name">
+    <input type="text" name="Myname" placeholder="Enter your last name" id="name">
+     </div>
+     <br>
+     <label for="Mobile">Mobile number</label>
+    <div>
+        <input type="number" Mobile number="Mynumber" placeholder="Enter your Mobile number" id="Mobile">
+    </div>
+    <br>
+    <label for="email">Email id</label>
+    <div>
+    <input type="text" Email id ="myemail" placeholder="Enter your Email Id" id="email">
+    </div>
+    <br>
+    <label for="address">Address</label>
+    <div>
+    <input type="text" address="myaddress" placeholder="Street Address" id="address">
+    <input type="text" address="myaddress" placeholder="Street Address line 2" id="address">
+    <input type="text" address="myaddress" placeholder="city" id="address">
+    <label for="country">Country</label>
+    <select name="country"placeholder="Select country" id="Country">
+        <option value="india">India</option>
+        <option value="america">America</option>
+        <option value="newzaland">NewZaland</option>
+        <option value="austrilia">Austrilia</option>
+        <option value="Russia">Russia</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="China">China</option>
+        <option value="Srilanka">Srilanka</option>
+</select>
+    </div>
+    <br>
+    <div>
+        Pin code : <input type="password" maxlength="6" placeholder="zip code">
+    </div>
+    <br>
+    <div>
+        Date of birth : <input type="date">
+    </div>
+    <br>
+    <label for="gender">Gender</label>
+    <div>
+    <select name="gender" id="Gender"><br>
+            <option value="Male">Male</option>
+            <option value="fale">female</option>
+            <option value="other">other</option>
+    </select>
+    </div>
+    <br>
+    <div>
+        Aadhar number: <input type="password" address="myAadhar" maxlength="12" placeholder="Enter aadhar number">
+    </div><br>
+    <div>
+    above 18 :YES <input type="radio" name="myeligebelity" >NO<input type="radio" name="myeligebelity"> 
+    </div>
+    <br>
+    <label for="myself">Write about your self</label>
+    <div>
+     <br>
+     <textarea name="myself" id="myself" placeholder="Write here up to 150 words" maxlength="150" cols="50" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+          </div>
+    </form>
+
+</body>
+</html>
